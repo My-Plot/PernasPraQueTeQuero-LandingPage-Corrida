@@ -6,7 +6,7 @@ import {
   Button, Calendary
 } from "./hero.js";
 import imgHero from "../../assets/hero.jpg";
-import calendary from "../../assets/Calendário.svg";
+import calendary from "../../assets/calendario.svg";
 
 export function Hero() {
   return (

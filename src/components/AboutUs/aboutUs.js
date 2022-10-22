@@ -13,6 +13,19 @@ export const Wrapper = styled.section`
     padding: 3rem;
   }
 
+  @media (max-width: 830px){
+    gap: 2rem;
+  }
+
+  @media (max-width: 600px){
+    padding: 1rem;
+  }
+
+  @media (max-width: 540px){
+    display: flex;
+    flex-direction: column;
+  }
+
   @media (max-width: 375px) {
     flex-direction: column;
     padding: 0;
@@ -26,8 +39,26 @@ export const Content = styled.div`
   width: 35vw;
   font-size: min(1.1rem, 3vw);
 
+  @media (max-width: 1400px) {
+    width: 80vw;
+    font-size: 1rem;
+  }
+
+  @media (max-width: 1300px) {
+    font-size: .9rem;
+  }
+
+  @media (max-width: 1100px) {
+    font-size: .8rem;
+  }
+
   @media (max-width: 1024px){
     font-size: .8rem;
+  }
+
+  @media (max-width: 830px){
+    width: 70vw;
+    font-size: .7rem;
   }
 
   @media (max-width: 375px) {
@@ -52,8 +83,20 @@ export const Imagem = styled.img`
   width: 30vw;
   border-radius: 9px;
 
+  @media (max-width: 1500px){
+    width: 40vw; 
+  }
+
   @media (max-width: 1024px){
     width: 35vw; 
+  }
+
+  @media (max-width: 830px){
+    width: 35vw; 
+  }
+
+  @media (max-width: 540px){
+    width: 60vw;
   }
 
   @media (max-width: 375px) {

@@ -8,9 +8,31 @@ export const Section = styled.section`
   padding: 8rem;
   gap: 15rem;
 
+  @media (max-width: 1500px) {
+    gap: 12rem;
+    padding: 5rem;
+  }
+
+  @media (max-width: 1200px) {
+    gap: 8rem;
+    padding: 3rem;
+  }
+
   @media (max-width: 1024px) {
     padding: 3rem;
     gap: 7rem;
+  }
+
+  @media (max-width: 880px) {
+    gap: 3rem;
+    padding: 2rem;
+  }
+
+  @media (max-width: 540px) {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 3rem;
   }
 
   @media (max-width: 375px) {
@@ -21,10 +43,12 @@ export const Section = styled.section`
   }
 `;
 
+
 export const TextImage = styled.div`
   display: flex;
   flex-direction: column;
 `;
+
 
 export const Title = styled.h2`
   font-size: min(2rem, 6vw);
@@ -41,13 +65,18 @@ export const Title = styled.h2`
   }
 `;
 
+
 export const Imagem = styled.img`
   width: 30vw;
   border-radius: 9px;
   background-color: #eeeeee;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1500px) {
     width: 35vw;
+  }
+
+  @media (max-width: 1024px) {
+    width: 40vw;
   }
 
   @media (max-width: 375px) {
@@ -55,12 +84,26 @@ export const Imagem = styled.img`
   }
 `;
 
+
 export const Text = styled.div`
   width: 35vw;
   font-size: min(1.1rem, 3vw);
 
+  @media (max-width: 1500px) {
+    font-size: .9rem;
+  }
+
   @media (max-width: 1024px) {
     font-size: 0.8rem;
+  }
+
+  @media (max-width: 880px) {
+    font-size: .6rem;
+  }
+
+  @media (max-width: 540px) {
+    width: 70vw;
+    margin-bottom: 2rem;
   }
 
   @media (max-width: 375px) {

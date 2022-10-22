@@ -16,18 +16,33 @@ export const Section = styled.div`
   }
 `;
 
+
 export const Title = styled.h2`
   font-size: min(2rem, 3vw);
 
   @media (max-width: 1024px){
-      font-size: 1.7rem;
+      font-size: 1.5rem;
+  }
+
+  @media (max-width: 800px){
+      font-size: 1.2rem;
+  }
+
+  @media (max-width: 580px){
+      font-size: 1rem;
+  }
+
+  @media (max-width: 520px){
+      font-size: .7rem;
   }
 `;
+
 
 export const InputButton = styled.div`
   display: flex;
   gap: min(1rem, 2vw);
 `;
+
 
 export const Input = styled.input`
   width: 35vw;
@@ -38,6 +53,7 @@ export const Input = styled.input`
     font-size: min(1rem, 2vw);
   }
 `;
+
 
 export const Button = styled.button`
   background-color: var(--secondary-color);

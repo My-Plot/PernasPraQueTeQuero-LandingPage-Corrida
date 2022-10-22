@@ -11,6 +11,7 @@ export const Wrapper = styled.section`
   }
 `;
 
+
 export const Section = styled.div`
   display: flex;
   margin: 0 auto;
@@ -31,6 +32,7 @@ export const Section = styled.div`
   }
 `;
 
+
 export const Images = styled.img`
   width: 13vw;
 
@@ -40,10 +42,12 @@ export const Images = styled.img`
   }
 `;
 
+
 export const Title = styled.h2`
   font-size: min(2rem, 6vw);
   margin: 2rem 0 3rem 4rem;
 `;
+
 
 export const Participant = styled.div`
   display: flex;
@@ -58,6 +62,13 @@ export const Participant = styled.div`
   @media (max-width: 375px){
     width: 50vw;
 
+  }
+`;
+
+
+export const Text = styled.p`
+  @media (max-width: 1024px){
+    font-size: .8rem;
   }
 `;
 

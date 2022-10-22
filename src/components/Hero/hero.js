@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   overflow-x: hidden;
   overflow-y: hidden;
 
-  @media (max-width: 375px) {
+  @media (max-width: 540px) {
     display: flex;
     flex-direction: column;
   }
@@ -16,7 +16,7 @@ export const Image = styled.img`
   width: 60vw;
   height: 100%;
 
-  @media (max-width: 375px) {
+  @media (max-width: 540px) {
     width: 100vw;
   }
 `;
@@ -35,7 +35,7 @@ export const HeroText = styled.div`
     margin-left: -6rem;
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 540px) {
     width: 100vw;
     transform: skewX(0deg);
     margin: auto;
@@ -67,7 +67,7 @@ export const HeroTextInner = styled.div`
     font-size: 0.8rem;
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 540px) {
     transform: skewX(0deg);
     width: 100%;
     margin: 1rem 0;
@@ -99,7 +99,7 @@ export const Button = styled.button`
     margin-top: 2rem;
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 540px) {
     width: 50vw;
     padding: 0.5rem;
     margin-bottom: 1rem;
@@ -117,8 +117,25 @@ export const Calendary = styled.img`
     margin-left: -6rem;
   }
 
+  @media (max-width: 1770px) {
+    width: 8vw;
+    margin-left: -6rem;
+  }
+
+  @media (max-width: 1660px) {
+    width: 7vw;
+    margin-left: -5rem;
+    margin-top: 0;
+  }
+
+  @media (max-width: 1323px) {
+    width: 6vw;
+    margin-left: -5rem;
+    margin-top: 1rem;
+  }
+
   @media (max-width: 1024px) {
-    width: 10vw;
+    width: 8vw;
     margin-left: 1rem;
     top: -1.8rem;
   }
@@ -126,73 +143,56 @@ export const Calendary = styled.img`
   @media (max-width: 768px) {
     width: 10vw;
     margin-left: -2rem;
-    top: -1rem;
+    top: -2rem;
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 540px) {
     transform: skewX(0deg);
-    width: 20vw;
+    width: 18vw;
+    margin-top: -21rem;
+    margin-left: 8rem;
+  }
+
+  @media (max-width: 510px) {
+    transform: skewX(0deg);
+    width: 18vw;
+    margin-top: -20rem;
+    margin-left: 8rem;
+  }
+
+  @media (max-width: 481px) {
+    transform: skewX(0deg);
+    width: 17vw;
+    margin-top: -19rem;
+    margin-left: 8rem;
+  }
+
+  @media (max-width: 460px) {
+    transform: skewX(0deg);
+    width: 17vw;
+    margin-top: -18rem;
+    margin-left: 8rem;
+  }
+
+  @media (max-width: 438px) {
+    transform: skewX(0deg);
+    width: 16vw;
+    margin-top: -17rem;
+    margin-left: 8rem;
+  }
+
+  @media (max-width: 418px) {
+    transform: skewX(0deg);
+    width: 16vw;
     margin-top: -16rem;
-    margin-left: 5rem;
+    margin-left: 8rem;
+  }
+
+  @media (max-width: 395px) {
+    transform: skewX(0deg);
+    width: 16vw;
+    margin-top: -15rem;
+    margin-left: 8rem;
   }
 `;
 
-// export const Date = styled.div`
-//   display: flex;
-//   transform: skewX(20deg);
-// `;
-
-// export const PrimeiraAste = styled.span`
-//   background-color: red;
-//   width: 0.4rem;
-//   height: 5rem;
-//   position: absolute;
-// `;
-
-// export const SegundaAste = styled.span`
-//   background-color: red;
-//   width: 0.4rem;
-//   height: 5rem;
-//   position: absolute !important;
-//   margin: -4rem 2rem 0 6rem;
-// `;
-
-// export const Box = styled.div`
-//   display: flex;
-//   flex-direction: column;
-// `;
-
-// export const Topo = styled.span`
-//   width: 160px;
-//   height: 40px;
-//   background-color: var(--tertiary-color);
-//   border-radius: 10px 10px 0 0;
-//   position: absolute;
-// `;
-
-// export const Base = styled.span`
-//   display: flex;
-//   flex-direction: column;
-//   width: 160px;
-//   height: 170px;
-//   background-color: #fff;
-//   color: var(--secondary-color);
-//   border-radius: 10px;
-// `;
-
-// export const Dia = styled.span`
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   text-align: center;
-//   font-size: 5rem;
-//   margin: 1rem 0 -1rem 0;
-// `;
-
-// export const Mes = styled.span`
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   text-align: center;
-//   font-size: 1.5rem;
-// `;
