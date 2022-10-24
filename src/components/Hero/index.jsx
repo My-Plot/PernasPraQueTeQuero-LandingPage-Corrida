@@ -27,7 +27,7 @@ export function Hero() {
           <h1>
             <strong>CADEIRA DE RODAS</strong>
           </h1>
-          <p>CONDUZIDAS POR CORREDORES PROFISSIONAIS</p>
+          <p>CONDUZIDAS POR CORREDORES AMADORES</p>
           <a
             href="http://pernas.iluria.com/garanta-sua-participacao-ct-15a963"
             target="_blank"
