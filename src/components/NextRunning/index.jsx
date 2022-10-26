@@ -15,7 +15,7 @@ export function NextRunning() {
       <Text>
         <p>
           Nossa próxima corrida acontecerá no dia 13 de novembro de 2022 no
-          Parque Iguaçu em Curitiba, localizado na avenida Cândido Jartmann.
+          Parque Iguaçu em Curitiba.
         </p>
         <br />
         <p>
@@ -27,7 +27,7 @@ export function NextRunning() {
           As adesões ocorrerão entre
           10/10/2022 até 28/10/2022 e todos os participantes de todas as modalidades receberão
           kits com camisetas e as cadeiras de rodas serão adaptadas com
-          dispositivo de terceira roda e manipula estendida que ofereceram maior
+          dispositivo Ploy que oferece maior
           segurança. Fique tranquilo, fazemos um match das equipes, mas se você
           quer correr com alguém, é só avisar. 
         </p>
