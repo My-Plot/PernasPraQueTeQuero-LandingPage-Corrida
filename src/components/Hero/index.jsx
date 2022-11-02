@@ -23,7 +23,7 @@ export function Hero() {
         <Calendary src={calendary} alt="Calendário com a data da corrida" />
        
         <HeroTextInner>
-          <h2>CORRIDA DE RUA PARA CRIANÇAS EM</h2>
+          <h2>CORRIDA DE RUA PARA PESSOAS EM</h2>
           <h1>
             <strong>CADEIRA DE RODAS</strong>
           </h1>
